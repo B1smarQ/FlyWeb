@@ -1,0 +1,24 @@
+.question{
+    padding-top: 5px;
+    display: none;
+    margin-left:5dvw;
+    background-color: #BBE0F0;
+    width:75dvw;
+    margin-top:2.5dvw;
+    border-radius: 30px;
+    user-select: none;
+
+}
+.question h2{
+    color: #146C94;
+    font-size:36px;
+}
+.question label{
+    color:#146C94;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:30px;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+}

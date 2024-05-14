@@ -1,0 +1,27 @@
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    margin:0;
+    z-index:1000;
+    width:100vw;
+    height:130px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #42475B;
+    align-items: center;
+
+}
+footer button{
+    width: 112px;
+    height: 34px;
+    border: none;
+    border-radius: 30px;
+    background-color: #D28154;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer p{
+    color:white !important;
+}

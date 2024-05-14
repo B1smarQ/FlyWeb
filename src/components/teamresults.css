@@ -1,0 +1,19 @@
+.team_name{
+    border:1px solid #4E91AF;
+    color:#4E91AF;
+    width:20dvw;
+    border-radius: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    height:45px;
+}
+.teams_container{
+    margin-top:20px;
+    margin-left:5dvw;
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    align-items: center;
+    flex-wrap: wrap;
+}

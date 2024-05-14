@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#42475B;
+    padding-left:5dvw;
+    padding-right:5dvw;
+    height:100px;
+}
+header div{
+    display: flex;
+    min-width:300px;
+    justify-items: center;
+    justify-content: right;
+    align-items: center;
+    background-color:#4C577F ;
+    border-radius: 30px;
+    height:50px;
+}
+header div p{
+    font-size:2em;
+    color:white;
+}
+header div img {
+    width:40px;
+    height: 40px;
+}

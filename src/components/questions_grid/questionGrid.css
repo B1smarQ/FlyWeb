@@ -1,0 +1,25 @@
+.quest_grid{
+    display: grid;
+    width:80dvw;
+    gap:10px;
+    grid-template-columns: repeat(15,auto);
+    margin-left:5dvw;
+    margin-right:5dvw;
+    height:60px;
+    align-items: center;
+}
+.quest_grid div button{
+    width:100%;
+    height:40px;
+    margin:0;
+    padding:0;
+    background-color: #BBE0F0;
+    border:none;
+    border-radius: 5px;
+    color:#146C94;
+    font-size:2em;
+
+}
+.active{
+    background-color: #FAC484;
+}

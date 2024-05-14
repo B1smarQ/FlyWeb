@@ -1,0 +1,13 @@
+body{
+  background-color: antiquewhite;
+  overflow-x: hidden;
+}
+#root{
+  height: 100dvh !important;
+}
+#main{
+  height:100% !important;
+}
+h1{
+  text-align: center;
+}

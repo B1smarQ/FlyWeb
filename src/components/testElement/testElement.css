@@ -1,0 +1,58 @@
+.testElement{
+    width:570px;
+    height:775px;
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #547FD2;
+    margin-left:20px;
+    margin-right:20px;
+}
+.testElementBanner img{
+    width:570px;
+}
+.testElement h2{
+    border-radius:30px;
+    background-color: #146C94;
+    color:white;
+    width: 80%;
+    height: max-content;
+    transform: translateY(-100%);
+}
+.testElement p{
+    color:white;
+    font-size:2em;
+    transform:translateY(-100%);
+
+}
+.test_info_container *{
+    padding:5px
+}
+.testElement a{
+    color:white;
+    font-size:1.5em;
+    text-decoration: none;
+}
+@media (max-width:700px){
+    .testElement{
+        width:360px;
+        height:345px;
+        margin-bottom: 50px;
+        overflow-y: hidden;
+    }
+    .testElement img{
+        width:360px;
+        height:260px;
+    }
+    .testElement h2{
+        font-size:2em;
+    }
+    .testElement p{
+        font-size:1em;
+        transform:translateY(-500%);
+    }
+    .test_info_container{
+        height:min-content;
+    }
+}

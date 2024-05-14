@@ -1,0 +1,38 @@
+#test-info-container{
+    width:363px;
+    height:520px;
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #547FD2;
+    margin-left:20px;
+    margin-right:20px;
+}
+#test-info-container h2{
+    border-radius:30px;
+    background-color: #146C94;
+    color:white;
+    width: fit-content;
+    font-size:2em;
+    height: fit-content;
+    transform: translateY(-75%);
+}
+#test-info *{
+    padding:20px;
+}
+#background-img img{
+    min-width:363px !important;
+}
+#test-info-container p{
+    color:white;
+    font-size:2em;
+    transform:translateY(-100%);
+}
+
+@media (max-width:700px){
+    #test-info-container{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+}

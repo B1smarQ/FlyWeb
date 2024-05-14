@@ -1,0 +1,55 @@
+.studentStat{
+    display: flex;
+    margin-top:25px;
+    width:90dvw;
+    margin-left:5dvw;
+    justify-content: space-between;
+    background-color: white;
+    border:solid 1px #23759B;
+    margin-bottom:10px;
+    border-radius: 30px;
+    padding:5px;
+    padding-left:20px;
+}
+a{
+    text-decoration: none;
+}
+.rating_position{
+    background-color: #146C94 ;
+    color:white !important;
+    transform: translateX(-100%);
+    font-size:20px;
+    width:42px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.studentStat p{
+    color:#146C94;
+}
+.student_score{
+    background-color: #146C94 ;
+    color:white !important;
+    transform: translateX(-100%);
+    font-size:20px;
+    width:73px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 15px;
+}
+.student_time{
+    transform: translateY(-100%);
+    color:white !important;
+    background-color: #146C94;
+    vertical-align: middle;
+    width:71px;
+    height:45px;
+    line-height: 45px;
+    border-radius: 15px;
+
+}

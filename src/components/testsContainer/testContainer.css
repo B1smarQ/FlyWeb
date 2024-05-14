@@ -1,0 +1,40 @@
+#testContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left:5dvw;
+    margin-right:5dvw;
+    margin-top:100px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+#testContainer div h2{
+    text-align: center;
+    font-size:2em;
+}
+.search_bar{
+    width:100dvw;
+    display: flex;
+    justify-content: center;
+    background-color: #19A7CE;
+    height:123px;
+    align-items: center;
+}
+.search_bar input{
+    width:80%;
+    border-radius: 30px;
+    height:50%;
+    background-color: #146C94;
+    border:none;
+    font-size:30px;
+    color:white;
+    padding-left:40px;
+}
+.search_bar input::placeholder{
+    color:white;
+}
+@media (max-width:700px) {
+    #testContainer{
+        flex-direction: column;
+    }
+}

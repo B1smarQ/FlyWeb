@@ -1,0 +1,58 @@
+#user_photo{
+    width:260px;
+    height:260px;
+    border-radius: 50%;
+}
+#user_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#user_info *{
+    margin-left:20px;
+}
+#user_info h2{
+    color: #146C94;
+}
+#user_info p{
+    color: #307DA0;
+}
+#buttons{
+    display: flex;
+    flex-direction:column;
+}
+#user_tests{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    flex-direction: row;
+}
+#buttons a{
+    border:none;
+    background-color: #307DA0;
+    margin-top:20px;
+    max-width:352px;
+    height:78px;
+    border-radius: 30px;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 78px;
+    text-decoration: none;
+}
+@media (max-width: 700px){
+    #user_tests{
+        flex-direction: column;
+    }
+    #user_info{
+        flex-direction: column;
+    }
+    #buttons{
+        flex-direction: row;
+    }
+    #buttons button{
+        width:180px;
+        height:40px;
+        font-size:15px;
+    }
+}
