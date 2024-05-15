@@ -26,6 +26,7 @@
     align-items: center;
     overflow-x: auto;
     flex-direction: row;
+    overflow-y: hidden;
 }
 #buttons a{
     border:none;

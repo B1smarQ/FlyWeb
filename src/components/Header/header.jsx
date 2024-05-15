@@ -31,7 +31,8 @@ export default function Header(){
             
             <div>
             <img src = {user}></img>
-            {token? <Link to = '/profile'><p>Личный кабинет</p></Link> :<Link to = {'/login'}>Войти</Link>}
+            {token? <Link to = '/profile'><p>Личный кабинет</p></Link> :<Link to = {'/login'}><p>Войти</p></Link>}
+            {token && <button onClick = {()=>{localStorage.clear(); location.reload()}}> Выйти</button>}
             
             </div>
         </header>

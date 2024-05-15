@@ -68,14 +68,15 @@ export default function QuestionHolder({questions, testId}){
           body:JSON.stringify({
             flyId:testanswers.flyId,
             questionResponses:testanswers.answers,
-            time:testanswers.time
+            time:testanswers.time,
+            lostFocus:lostFocus
           })
           
           
         });
         submitted = true;
         if(!response.ok){
-          alert('Вы уже отправили ответы')
+          alert('Ответы успешно отправлены')
         }
         response.then(response =>console.log(response));
         
