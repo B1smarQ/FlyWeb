@@ -75,9 +75,7 @@ export default function QuestionHolder({questions, testId}){
           
         });
         submitted = true;
-        if(!response.ok){
-          alert('Ответы успешно отправлены')
-        }
+        window.location.assign('/')
         response.then(response =>console.log(response));
         
         

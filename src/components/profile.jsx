@@ -43,7 +43,7 @@ export default function UserProfilePage(){
                 </div>
                 <div>
                 <h2>{student.name}</h2>
-                    <p>Какафедра</p>
+                    <p>Кафедра прикладной информатики</p>
                 </div>
                 <div id = 'buttons'>
                     <Link to = '/teams'> рейтинг по группам </Link>
